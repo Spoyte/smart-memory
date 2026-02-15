@@ -1,0 +1,38 @@
+{
+  "port": 3456,
+  "channels": {
+    "telegram": {
+      "enabled": false,
+      "botToken": "",
+      "chatId": "",
+      "minPriority": "medium"
+    },
+    "file": {
+      "enabled": true,
+      "path": "./data/notifications.jsonl",
+      "minPriority": "low"
+    },
+    "console": {
+      "enabled": true,
+      "minPriority": "low",
+      "colors": true
+    }
+  },
+  "quietHours": {
+    "enabled": false,
+    "start": "23:00",
+    "end": "08:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "rateLimits": {
+    "default": { "maxPerHour": 30 },
+    "surebet-detector": { "maxPerHour": 10 },
+    "promo-scanner": { "maxPerHour": 20 }
+  },
+  "priorities": {
+    "low": 1,
+    "medium": 2,
+    "high": 3,
+    "critical": 4
+  }
+}

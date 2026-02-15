@@ -1,0 +1,16 @@
+{
+  "name": "smart-memory",
+  "version": "1.0.0",
+  "description": "Lightweight semantic memory system for AI assistants",
+  "main": "memory.js",
+  "bin": {
+    "smem": "./memory.js"
+  },
+  "scripts": {
+    "add": "node memory.js add",
+    "search": "node memory.js search",
+    "list": "node memory.js list"
+  },
+  "keywords": ["memory", "semantic", "search", "notes"],
+  "license": "MIT"
+}
