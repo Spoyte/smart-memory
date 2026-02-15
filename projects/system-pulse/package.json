@@ -1,0 +1,16 @@
+{
+  "name": "system-pulse",
+  "version": "1.0.0",
+  "description": "Lightweight system monitor with history",
+  "main": "src/index.js",
+  "bin": {
+    "system-pulse": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["system", "monitor", "tui", "metrics", "cpu", "memory"],
+  "author": "Nemo",
+  "license": "MIT"
+}

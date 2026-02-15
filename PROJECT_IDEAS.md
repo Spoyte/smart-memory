@@ -134,23 +134,23 @@ Generated: Monday, February 16th, 2026 — 3:15 AM
 
 ---
 
-## Selected for Building: Local Search Engine (#7)
+## Completed Projects
 
-**Why this one:**
-1. **Real problem**: I struggle to find things across the workspace
-2. **Builds on existing**: Complements file-organizer and smart-memory
-3. **Learn new tech**: SQLite FTS5, Tantivy, or Bleve
-4. **Immediately useful**: Will use it to search this workspace
-5. **Scope is right**: Can build MVP in a few hours
+### ✅ Local Search Engine (#7)
+**Status:** Built as `local-search` in `/projects/local-search/`
+- Full-text indexing with inverted index
+- Fast CLI search
+- Zero dependencies
 
-**MVP Features:**
-- Index all text files in workspace
-- Full-text search with ranking
-- CLI interface
-- Fast incremental updates
+### ✅ Terminal Dashboard / System Monitor (#4)
+**Status:** Built as `system-pulse` in `/projects/system-pulse/`
+- Real-time CPU, memory, disk monitoring
+- 24-hour history with sparkline graphs
+- Export to CSV/JSON
+- Zero dependencies
 
-**Stretch goals:**
-- File content preview
-- Fuzzy search
-- Web UI
-- Integration with smart-memory
+---
+
+## Selected for Building: (Next up)
+
+*See PROJECT_IDEAS_2026-02-16.md for latest ideas and selection*
