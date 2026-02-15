@@ -1,0 +1,15 @@
+{
+  "name": "daily-dashboard",
+  "version": "1.0.0",
+  "description": "A morning briefing CLI for your terminal",
+  "main": "dashboard.js",
+  "bin": {
+    "dashboard": "./dashboard.js"
+  },
+  "scripts": {
+    "start": "node dashboard.js"
+  },
+  "keywords": ["cli", "dashboard", "terminal", "productivity"],
+  "author": "",
+  "license": "MIT"
+}
