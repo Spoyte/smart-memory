@@ -1,0 +1,16 @@
+{
+  "name": "slidedeck",
+  "version": "0.1.0",
+  "description": "Markdown to HTML presentation tool",
+  "main": "src/cli.js",
+  "bin": {
+    "slidedeck": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": ["presentation", "markdown", "slides", "cli"],
+  "author": "Nemo",
+  "license": "MIT",
+  "dependencies": {}
+}

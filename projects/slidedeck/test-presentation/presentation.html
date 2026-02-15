@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideDeck Presentation</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #ffffff;
+      color: #333333;
+      overflow: hidden;
+    }
+    
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem;
+    }
+    
+    .slide-content {
+      max-width: 1000px;
+      width: 100%;
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+    
+    .slide-content h1 {
+      font-size: 3.5rem;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+    }
+    
+    .slide-content h2 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin-bottom: 1.5rem;
+      border-bottom: 3px solid #0066cc;
+      padding-bottom: 0.5rem;
+    }
+    
+    .slide-content h3 {
+      font-size: 2rem;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+    }
+    
+    .slide-content p {
+      margin-bottom: 1rem;
+    }
+    
+    .slide-content ul, .slide-content ol {
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .slide-content li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .slide-content code {
+      background: #f5f5f5;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 0.9em;
+    }
+    
+    .slide-content pre {
+      background: #f5f5f5;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    
+    .slide-content pre code {
+      background: none;
+      padding: 0;
+    }
+    
+    .slide-content blockquote {
+      border-left: 4px solid #0066cc;
+      padding-left: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+    }
+    
+    .slide-content a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    
+    .slide-content a:hover {
+      text-decoration: underline;
+    }
+    
+    .slide-content img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .speaker-notes {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      font-size: 1rem;
+      display: none;
+    }
+    
+    .speaker-notes.visible {
+      display: block;
+    }
+    
+    .controls {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      display: flex;
+      gap: 0.5rem;
+      z-index: 100;
+    }
+    
+    .controls button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    
+    .controls button:hover {
+      opacity: 0.9;
+    }
+    
+    .progress {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 4px;
+      background: #0066cc;
+      transition: width 0.3s;
+    }
+    
+    .slide-number {
+      position: fixed;
+      bottom: 1rem;
+      left: 1rem;
+      color: #333333;
+      opacity: 0.5;
+      font-size: 0.9rem;
+    }
+    
+    @media print {
+      .slide {
+        display: flex !important;
+        page-break-after: always;
+        height: 100vh;
+      }
+      .controls, .progress, .slide-number, .speaker-notes {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+    <div class="slide" data-index="0" style="display: flex">
+      <div class="slide-content">
+        <h1>Welcome to SlideDeck</h1><p>A simple way to create presentations from Markdown.</p>
+      </div>
+      
+    </div>
+  
+    <div class="slide" data-index="1" style="display: none">
+      <div class="slide-content">
+        <h2>Getting Started</h2><li>Write your slides in Markdown</li><li>Separate slides with three dashes: <code>---</code></li><li>Run <code>slidedeck serve slides.md</code></li>
+      </div>
+      
+    </div>
+  
+    <div class="slide" data-index="2" style="display: none">
+      <div class="slide-content">
+        <h2>Features</h2><ul><li><strong>Simple</strong>: Just Markdown, no complex UI</li><li><strong>Fast</strong>: Instant preview as you edit</li><li><strong>Beautiful</strong>: Clean, professional themes</li><li><strong>Portable</strong>: Works offline, export to PDF</li></ul>
+      </div>
+      
+    </div>
+  
+    <div class="slide" data-index="3" style="display: none">
+      <div class="slide-content">
+        <h2>Code Example</h2><pre><code class="language-javascript">function greet(name) {<p>  return <code>Hello, ${name}!</code>;</p><p>}</p><p>console.log(greet("World"));</code></pre></p>
+      </div>
+      
+    </div>
+  
+    <div class="slide" data-index="4" style="display: none">
+      <div class="slide-content">
+        <h2>The End</h2><p>Thanks for trying SlideDeck!</p>
+      </div>
+      <div class="speaker-notes">Ask if there are any questions</div>
+    </div>
+  
+  
+  <div class="progress" style="width: 20%"></div>
+  <div class="slide-number">1 / 5</div>
+  
+  <div class="controls">
+    <button onclick="prevSlide()">← Prev</button>
+    <button onclick="nextSlide()">Next →</button>
+  </div>
+  
+  <script>
+    let currentSlide = 0;
+    const totalSlides = 5;
+    const slides = document.querySelectorAll('.slide');
+    const progress = document.querySelector('.progress');
+    const slideNumber = document.querySelector('.slide-number');
+    
+    function showSlide(n) {
+      if (n < 0) n = 0;
+      if (n >= totalSlides) n = totalSlides - 1;
+      
+      slides.forEach((slide, i) => {
+        slide.style.display = i === n ? 'flex' : 'none';
+      });
+      
+      currentSlide = n;
+      progress.style.width = ((currentSlide + 1) / totalSlides * 100) + '%';
+      slideNumber.textContent = (currentSlide + 1) + ' / ' + totalSlides;
+    }
+    
+    function nextSlide() {
+      showSlide(currentSlide + 1);
+    }
+    
+    function prevSlide() {
+      showSlide(currentSlide - 1);
+    }
+    
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+        e.preventDefault();
+        nextSlide();
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        prevSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        document.documentElement.requestFullscreen();
+      } else if (e.key === 's' || e.key === 'S') {
+        document.querySelectorAll('.speaker-notes').forEach(n => {
+          n.classList.toggle('visible');
+        });
+      } else if (e.key === '.') {
+        document.body.style.background = document.body.style.background === 'black' ? '' : 'black';
+      }
+    });
+    
+    // Touch support
+    let touchStartX = 0;
+    document.addEventListener('touchstart', e => {
+      touchStartX = e.touches[0].clientX;
+    });
+    document.addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        diff > 0 ? nextSlide() : prevSlide();
+      }
+    });
+  </script>
+</body>
+</html>
