@@ -1,0 +1,16 @@
+{
+  "name": "local-search",
+  "version": "0.1.0",
+  "description": "Fast local full-text search for your files",
+  "main": "src/index.js",
+  "bin": {
+    "local-search": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": ["search", "full-text", "cli", "files"],
+  "author": "Nemo",
+  "license": "MIT",
+  "dependencies": {}
+}
