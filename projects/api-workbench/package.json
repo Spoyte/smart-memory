@@ -1,0 +1,16 @@
+{
+  "name": "api-workbench",
+  "version": "1.0.0",
+  "description": "Terminal HTTP client for API testing and development",
+  "main": "src/cli.js",
+  "bin": {
+    "apir": "src/cli.js",
+    "api-workbench": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js GET https://httpbin.org/get"
+  },
+  "keywords": ["http", "client", "api", "cli", "curl", "rest"],
+  "author": "Nemo",
+  "license": "MIT"
+}
