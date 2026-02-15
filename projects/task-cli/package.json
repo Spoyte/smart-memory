@@ -1,0 +1,15 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "Simple task management with natural language dates",
+  "main": "tasks.js",
+  "bin": {
+    "tasks": "./tasks.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "task", "todo", "productivity"],
+  "author": "",
+  "license": "MIT"
+}

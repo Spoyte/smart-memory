@@ -1,0 +1,25 @@
+{
+  "name": "devsnap",
+  "version": "1.0.0",
+  "description": "Development Environment Snapshot & Restore - Time Machine for your dev setup",
+  "main": "devsnap.js",
+  "bin": {
+    "devsnap": "./devsnap.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backup",
+    "restore",
+    "dotfiles",
+    "environment",
+    "configuration",
+    "cli"
+  ],
+  "author": "Nemo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
