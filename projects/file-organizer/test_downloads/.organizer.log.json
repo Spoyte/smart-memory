@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "2026-02-16T03:04:36.580458",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/script.py",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Code/script.py",
+    "category": "Code",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/script.py",
+      "size": 0,
+      "mime_type": "text/x-python",
+      "extension": ".py",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "535ba3d296c04131",
+      "category": "Code"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.580795",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/report.pdf",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Documents/report.pdf",
+    "category": "Documents",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/report.pdf",
+      "size": 0,
+      "mime_type": "application/pdf",
+      "extension": ".pdf",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "215737d2425f0491",
+      "category": "Documents"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.581045",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/notes.txt",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Documents/notes.txt",
+    "category": "Documents",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/notes.txt",
+      "size": 0,
+      "mime_type": "text/plain",
+      "extension": ".txt",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "6aa136e46c9a37c4",
+      "category": "Documents"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.581492",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/archive.zip",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Archives/archive.zip",
+    "category": "Archives",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/archive.zip",
+      "size": 0,
+      "mime_type": "application/zip",
+      "extension": ".zip",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "6c3eb70eef9b4e61",
+      "category": "Archives"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.581812",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/image.jpg",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Images/image.jpg",
+    "category": "Images",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/image.jpg",
+      "size": 0,
+      "mime_type": "image/jpeg",
+      "extension": ".jpg",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "fe2220cd4c925d46",
+      "category": "Images"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.582161",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/presentation.pptx",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Presentations/presentation.pptx",
+    "category": "Presentations",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/presentation.pptx",
+      "size": 0,
+      "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "extension": ".pptx",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "c741ed44703bf700",
+      "category": "Presentations"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.582470",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/screenshot_2024.png",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Screenshots/screenshot_2024.png",
+    "category": "Screenshots",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/screenshot_2024.png",
+      "size": 0,
+      "mime_type": "image/png",
+      "extension": ".png",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "52ccfa5991ba3a6d",
+      "category": "Screenshots"
+    },
+    "dry_run": false
+  },
+  {
+    "timestamp": "2026-02-16T03:04:36.582866",
+    "action": "moved",
+    "source": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/data.csv",
+    "destination": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/Spreadsheets/data.csv",
+    "category": "Spreadsheets",
+    "file_info": {
+      "path": "/root/.openclaw/workspace/projects/file-organizer/test_downloads/data.csv",
+      "size": 0,
+      "mime_type": "text/csv",
+      "extension": ".csv",
+      "created": "2026-02-16T03:04:32.842997",
+      "modified": "2026-02-16T03:04:32.842997",
+      "content_hash": "88a2b4a245129ff5",
+      "category": "Spreadsheets"
+    },
+    "dry_run": false
+  }
+]
