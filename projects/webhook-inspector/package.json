@@ -1,0 +1,17 @@
+{
+  "name": "webhook-inspector",
+  "version": "1.0.0",
+  "description": "Self-hosted webhook debugging tool - like RequestBin but local",
+  "main": "server.js",
+  "type": "module",
+  "bin": {
+    "webhook-inspector": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["webhook", "debugging", "http", "inspector", "requestbin"],
+  "author": "",
+  "license": "MIT"
+}
